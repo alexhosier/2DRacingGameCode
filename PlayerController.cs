@@ -6,9 +6,9 @@ public class PlayerController : MonoBehaviour
 {
 
     [SerializeField]
-    private int speed;
+    [Range(0, 20)] private int speed;
     [SerializeField]
-    private int turnSpeed;
+    [Range(0, 300)] private int turnSpeed;
     private float horizontalAxis;
     private float verticalAxis;
 
